@@ -92,12 +92,12 @@ button:hover {
 }
 
 .section__title {
-    font-size: 48px;
-    font-weight: 900;
-    color: rgb(36, 62, 99);
-    line-height: 1.5;
-    margin: 16px 0;
-    letter-spacing: 0.025em;
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(36, 62, 99);
+  line-height: 1.5;
+  margin: 16px 0;
+  letter-spacing: 0.025em;
 }
 
 .section__para {
@@ -667,6 +667,12 @@ PRICING
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#pricing .section__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #pricing .section__para {
